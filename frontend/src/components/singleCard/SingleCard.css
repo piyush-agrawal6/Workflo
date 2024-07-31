@@ -1,0 +1,36 @@
+.singleCard {
+    display: flex;
+    align-items: center;
+    height: 123px;
+    padding: 16px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #FFFFFF;
+    border: 1px solid #F4F4F4
+}
+
+.singleCard>img {
+    width: 77px;
+    height: 61px;
+}
+
+.singleCard>div {
+    display: flex;
+    flex-direction: column;
+    height: 74px;
+    gap: 4px;
+}
+
+.singleCard>div h3 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.36px;
+    color: #757575;
+}
+
+.singleCard>div p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    color: #868686;
+}

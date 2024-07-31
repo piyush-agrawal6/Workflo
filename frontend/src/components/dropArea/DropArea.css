@@ -1,0 +1,18 @@
+.dropArea {
+    width: 100%;
+    height: 120px;
+    color: #cbcbcb;
+    border: 1px dashed #cbcbcb;
+    border-radius: 8px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+    margin: 10px 0;
+}
+
+.hideArea {
+    opacity: 0;
+}

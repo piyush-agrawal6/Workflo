@@ -1,0 +1,127 @@
+.ant-drawer-header {
+    display: none !important;
+}
+
+.ant-drawer-body {
+    padding: 16px 20px !important;
+    margin: 0 !important;
+    background-color: white;
+}
+
+.drawerHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 27px;
+}
+
+.drawerHeader>div {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    cursor: pointer;
+}
+
+.drawerHeader>div>div {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 8px;
+    border-radius: 4px;
+    background: #F4F4F4;
+}
+
+.drawerHeader>div>div>p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    color: #797979;
+}
+
+.drawerBody {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.drawerBodyTitle {
+    width: 100%;
+}
+
+.drawerBodyTitle>input {
+    border: none;
+    outline: none;
+    font-family: Barlow;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 57.6px;
+    color: #808080;
+}
+
+.drawerBodyTitle>input::placeholder {
+    color: #CCCCCC;
+}
+
+.drawerBodyForm>form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.drawerBodyForm>form>div {
+    width: 100%;
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.drawerBodyForm>form>div>div:nth-child(1) {
+    width: 150px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.drawerBodyForm>form>div>div:nth-child(1)>label {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    color: #666666;
+}
+
+.drawerBodyForm>form>div>input,
+select {
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #808080;
+}
+
+.drawerBodyForm>form>div>input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #808080;
+}
+
+.drawerBodyForm>form>div>select::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #808080;
+}
+
+.addTaskBtn {
+    padding: 8px 12px;
+    margin-top: 20px;
+    float: right;
+    cursor: pointer;
+    border: 1px solid #676767;
+    color: #363636;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}

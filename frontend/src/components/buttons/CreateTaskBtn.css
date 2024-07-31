@@ -1,0 +1,27 @@
+.createTaskBtn {
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 8px;
+    background: linear-gradient(180deg, #4C38C2 0%, #2F2188 100%);
+    border-image-source: linear-gradient(360deg, #4B36CC 0%, #9C93D4 107.69%);
+    box-shadow: 0px 1px 8px 0px #00000040;
+    box-shadow: 0px 12px 16px 0px #BABABA33 inset;
+    cursor: pointer;
+}
+
+.createTaskBtn>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.createTaskBtn>p {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+}

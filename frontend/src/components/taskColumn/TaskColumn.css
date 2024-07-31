@@ -1,0 +1,24 @@
+.taskColumn {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.taskColumnHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.taskColumnHeader>p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;
+    color: #555555;
+}
+
+.taskContainer {
+    display: flex;
+    flex-direction: column;
+}

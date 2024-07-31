@@ -1,0 +1,91 @@
+.singleTask {
+    width: 100%;
+    padding: 14px 13px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 8px;
+    background: #F9F9F9;
+    border: 1px solid #DEDEDE;
+    cursor: grab;
+}
+
+.singleTask:active {
+    opacity: 0.7;
+    border: 1px solid gray;
+}
+
+.singleTask>p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    color: #606060;
+}
+
+.singleTask>h3 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    color: #797979;
+}
+
+.singleTask>button {
+    height: 27px;
+    padding: 6px 8px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    color: #ffffff;
+    align-self: flex-start;
+}
+
+.singleTaskDeadline {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.singleTaskDeadline p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.94px;
+    color: #606060;
+}
+
+.singleTaskEdit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.singleTaskEdit span {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.94px;
+    color: #797979;
+}
+
+.singleTaskEdit>div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 22px;
+    color: #565656;
+}
+
+
+.priority-low {
+    background-color: #0ECC5A;
+}
+
+.priority-medium {
+    background-color: #FFA235;
+}
+
+.priority-urgent {
+    background-color: #FF6B6B;
+}
