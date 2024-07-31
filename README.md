@@ -42,13 +42,13 @@ The Trello-Style Task Management Application is a web-based project management t
 - **Calendar View**: An integrated calendar view to manage tasks with deadlines visually.
 
 ## Technologies Used
-- **Front-end**: React.js with TypeScript for building the user interface.
+- **Front-end**: NextJs with TypeScript for building the user interface.
 - **Back-end**: Node.js and Express.js for server-side logic and API handling.
 - **Database**: MongoDB for data storage and retrieval.
 - **Authentication**: JWT (JSON Web Tokens) for secure authentication and session management.
 - **State Management**: Redux for managing application state.
-- **Drag and Drop**: React DnD for implementing drag-and-drop functionality.
-- **Utilities**: Tigeago and a notification system for improved code management and user experience.
+- **Drag and Drop**: React inbuilt drop and drag features for implementing drag-and-drop functionality.
+- **Utilities**: Different utils has been used for improved code management and user experience.
 - **CSS Library**: AntD has been used  to design components like modal and drawer.
 
 ## Usage
