@@ -7,7 +7,6 @@ import AddTaskDrawer from "../drawer/AddTaskDrawer";
 import AddTask from "../buttons/AddTask";
 import DropArea from "../dropArea/DropArea";
 import { Dropdown, Menu } from "antd";
-import { DownOutlined } from "@ant-design/icons";
 
 interface Task {
   title: string;

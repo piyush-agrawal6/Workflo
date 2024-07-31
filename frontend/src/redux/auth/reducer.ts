@@ -31,7 +31,6 @@ interface Action {
 
 let token;
 if (typeof window !== "undefined") {
-  // Access localStorage here
   token = localStorage.getItem("token")
     ? JSON.parse(localStorage.getItem("token") as string)
     : "";

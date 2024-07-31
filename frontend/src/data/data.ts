@@ -1,4 +1,3 @@
-// Define interfaces for the data objects
 interface NavData {
   title: string;
   iconPath: string;

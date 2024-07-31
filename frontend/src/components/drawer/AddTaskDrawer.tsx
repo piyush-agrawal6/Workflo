@@ -70,13 +70,13 @@ const DrawerComponent: React.FC<DrawerComponentProps> = ({
     }
     const data = { ...formValues, title };
     dispatch(createTask(data))
-      .then(() => {
-        showSuccess("Task created successfully.");
-        onClose();
-      })
-      .catch(() => {
-        showError("Failed to create task. Please try again.");
-      });
+      // .then(() => {
+      //   showSuccess("Task created successfully.");
+      //   onClose();
+      // })
+      // .catch(() => {
+      //   showError("Failed to create task. Please try again.");
+      // });
   };
 
   return (

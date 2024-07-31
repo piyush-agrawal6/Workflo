@@ -65,9 +65,9 @@ const ActionBar: React.FC<ActionBarProps> = ({ setSearchQuery, setFilter }) => {
           onChange={handleSearch}
         />
         <img
-          src={searchInput ? "./close.svg" : "./search.svg"} // Use cross icon if there's input
+          src={searchInput ? "./close.svg" : "./search.svg"} 
           alt={searchInput ? "Clear Search" : "Search"}
-          onClick={searchInput ? handleClearSearch : undefined} // Clear search if icon is cross
+          onClick={searchInput ? handleClearSearch : undefined}
         />
       </div>
       <div className="otherActions">

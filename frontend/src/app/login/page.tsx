@@ -118,7 +118,7 @@ const Login: React.FC = () => {
             className={!isFormValid ? "disabled" : ""}
             type="submit"
             value={loading ? "Loading..." : "Login"}
-            disabled={!isFormValid} 
+            disabled={!isFormValid}
           />
         </form>
         <p className="loginEndText">

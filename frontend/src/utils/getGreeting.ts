@@ -1,7 +1,7 @@
 // utils/getGreeting.ts
 export const getGreeting = () => {
   const now = new Date();
-  const hours = now.getUTCHours() + 5.5; // Convert to IST (UTC +5:30)
+  const hours = now.getUTCHours() + 5.5; 
 
   if (hours >= 5 && hours < 12) {
     return "Good morning";
