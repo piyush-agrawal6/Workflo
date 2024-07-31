@@ -49,6 +49,7 @@ The Trello-Style Task Management Application is a web-based project management t
 - **State Management**: Redux for managing application state.
 - **Drag and Drop**: React DnD for implementing drag-and-drop functionality.
 - **Utilities**: Tigeago and a notification system for improved code management and user experience.
+- **CSS Library**: AntD has been used  to design components like modal and drawer.
 
 ## Usage
 - **Signup/Login**: Create an account or log in with your existing credentials.
