@@ -51,12 +51,12 @@ const SingleTask: React.FC<SingleTaskProps> = ({
 
   const confirm = () => {
     dispatch(deleteTask(_id))
-      .then(() => {
-        showSuccess("Task deleted successfully.");
-      })
-      .catch(() => {
-        showError("Failed to delete task. Please try again.");
-      });
+      // .then(() => {
+      //   showSuccess("Task deleted successfully.");
+      // })
+      // .catch(() => {
+      //   showError("Failed to delete task. Please try again.");
+      // });
   };
 
   const cancel = () => {
@@ -75,13 +75,13 @@ const SingleTask: React.FC<SingleTaskProps> = ({
         deadline: values.deadline ? new Date(values.deadline).getTime() : 0,
       };
       dispatch(updateTask(_id, data))
-        .then(() => {
-          showSuccess("Task updated successfully.");
-          setIsModalOpen(false);
-        })
-        .catch(() => {
-          showError("Failed to update task. Please try again.");
-        });
+        // .then(() => {
+        //   showSuccess("Task updated successfully.");
+        //   setIsModalOpen(false);
+        // })
+        // .catch(() => {
+        //   showError("Failed to update task. Please try again.");
+        // });
     });
   };
 
