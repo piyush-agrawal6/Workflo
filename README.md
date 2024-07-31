@@ -1,4 +1,4 @@
-# Trello-Style Task Management Application
+# Workflo - Trello-Style Task Management Application
 
 ## Project Overview
 The Trello-Style Task Management Application is a web-based project management tool designed to help users manage tasks efficiently. This application provides user authentication, task boards, task management capabilities, drag-and-drop functionality, and data persistence. Users can sign up, log in, and manage their tasks in a visually organized manner with columns representing different task statuses.
@@ -36,25 +36,10 @@ The Trello-Style Task Management Application is a web-based project management t
 - **Database Storage**: All user data, including account information and tasks, is stored in a database.
 - **User-specific Data**: Each user can only see and manage their own tasks, ensuring data privacy and security.
 
-### 6. State Management
-- **Redux**: Utilized to manage the application state and all logic, ensuring consistent and predictable state changes.
-
-### 7. Utilities
-- **Tigeago and Notification System**: Used for better code management and readability, enhancing the user experience with notifications.
-
-### 8. Static Data
-- **data.js**: A dedicated file to store all static data, improving code organization.
-
-### 9. Reusable Components
-- **Component Design**: Built with reusable components to enhance maintainability and scalability.
-
-### 10. Additional Features
+### 6. Additional Features
 - **Search Tasks**: Allows users to search for specific tasks.
 - **Filter Tasks**: Provides filtering options to view tasks based on certain criteria.
 - **Calendar View**: An integrated calendar view to manage tasks with deadlines visually.
-
-### 11. TypeScript
-- **Frontend**: The frontend is developed using TypeScript for better type checking and error prevention.
 
 ## Technologies Used
 - **Front-end**: React.js with TypeScript for building the user interface.
@@ -65,25 +50,10 @@ The Trello-Style Task Management Application is a web-based project management t
 - **Drag and Drop**: React DnD for implementing drag-and-drop functionality.
 - **Utilities**: Tigeago and a notification system for improved code management and user experience.
 
-## Installation and Setup
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/trello-style-task-manager.git
-   cd trello-style-task-manager
-   
 ## Usage
 - **Signup/Login**: Create an account or log in with your existing credentials.
 - **Task Board**: View and manage your tasks in the To-Do, In Progress, Under Review, and Completed columns.
 - **Create/Edit/Delete Tasks**: Add new tasks, edit existing ones, or delete tasks as needed.
 - **Drag and Drop**: Drag tasks between columns to update their status visually.
-- **Search/Filter Tasks**: Use the search and filter functionalities to find and organize tasks.
-- **Calendar View**: Utilize the calendar view to manage tasks with deadlines visually.
+- **Search/Filter/Sort Tasks**: Use the search and filter functionalities to find and organize tasks.
 
-## Contributing
-If you would like to contribute to this project, please fork the repository and create a pull request with your changes. Ensure your code follows the project's coding standards and includes appropriate tests.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-Special thanks to the open-source community for the tools and libraries used in this project.
